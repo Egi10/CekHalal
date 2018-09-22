@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cek Halal</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="nomor_sertifikat">Nomor Sertifikat</string>
+    <string name="nama_produsen">Nama Produsen</string>
+    <string name="berlaku_hingga">Berlaku Hingga</string>
+    <string name="cari_dulu_produknya">Cari Dulu Produknya</string>
+    <string name="tidak_ada_data">Tidak Ada Data Atas Nama Produk Tersebut</string>
+</resources>
