@@ -17,7 +17,7 @@ class MainPresenter(private val mainView: MainView) {
                 .build()
                 .getAsObject(APIResponse::class.java, object : ParsedRequestListener<APIResponse> {
                     override fun onResponse(response: APIResponse?) {
-                        if (response != null) {
+                        response?.let {
                             if (response.status.equals("success")) {
                                 mainView.onResponse(response.data)
                             } else {
